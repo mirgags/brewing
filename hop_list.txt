@@ -1,0 +1,89 @@
+{'aau': '13.5-16', 'origin': 'England', 'name': 'Admiral'}
+{'aau': '5.7-6.3', 'origin': 'U.S.', 'name': 'Ahtanum'}
+{'aau': '8-11', 'origin': 'U.S.', 'name': None}
+{'aau': '20-21', 'origin': 'U.S.', 'name': 'Apollo'}
+{'aau': '5.0-7.0', 'origin': 'England', 'name': 'Bramling Cross'}
+{'aau': '7.1-11.3', 'origin': 'England', 'name': "Brewer's Gold"}
+{'aau': '6.5-9', 'origin': 'England', 'name': 'Bullion'}
+{'aau': '4.5-6', 'origin': 'U.S.', 'name': None}
+{'aau': '9.5-11.5', 'origin': 'U.S.', 'name': 'Centennial'}
+{'aau': '6.5-8.5', 'origin': 'England', 'name': 'Challenger'}
+{'aau': '12-14', 'origin': 'U.S.', 'name': 'Chinook'}
+{'aau': '11-13', 'origin': 'U.S.', 'name': u'Citra\xae'}
+{'aau': '5.5-8.5', 'origin': 'U.S.', 'name': 'Cluster'}
+{'aau': '14-18', 'origin': 'U.S.', 'name': 'Columbus'}
+{'aau': '3.5-5.5', 'origin': 'U.S.', 'name': 'Crystal'}
+{'aau': '9-12', 'origin': 'U.S.', 'name': 'Eroica'}
+{'aau': '6.5-8.5', 'origin': 'England', 'name': 'First Gold'}
+{'aau': '3.1-5.5', 'origin': 'Australia', 'name': 'Feux-Coeur Francais'}
+{'aau': '4-5.5', 'origin': 'England', 'name': 'Fuggles'}
+{'aau': '14.9', 'origin': 'Australia', 'name': 'Galaxy'}
+{'aau': '12-14', 'origin': 'U.S.', 'name': 'Galena'}
+{'aau': '5.5', 'origin': 'U.S.', 'name': 'Glacier'}
+{'aau': '4-5.5', 'origin': 'England', 'name': 'Goldings'}
+{'aau': '11-14', 'origin': 'New Zealand', 'name': 'Green Bullet'}
+{'aau': '5.2', 'origin': 'U.S.', 'name': 'Greenburg'}
+{'aau': '3.5-5.5', 'origin': 'Germany', 'name': u'Hallertau / Hallertauer Mittelfr\xfch'}
+{'aau': '11-13', 'origin': 'England', 'name': 'Herald'}
+{'aau': '12.0-17.0', 'origin': 'Germany', 'name': 'Herkules'}
+{'aau': '3-5.5', 'origin': 'Germany', 'name': 'Hersbrucker'}
+{'aau': '11-13', 'origin': 'U.S.', 'name': 'Horizon'}
+{'aau': '3-5', 'origin': 'U.S.', 'name': 'Liberty'}
+{'aau': '3-5', 'origin': 'Poland', 'name': 'Lublin'}
+{'aau': '10.0-12.6', 'origin': 'Germany', 'name': 'Magnum'}
+{'aau': '3.5-7.0', 'origin': 'Germany', 'name': 'Merkur'}
+{'aau': '15.5', 'origin': 'U.S.', 'name': 'Millennium'}
+{'aau': '6.5-7.5', 'origin': 'New Zealand', 'name': 'Motueka'}
+{'aau': '11.5-13.5', 'origin': 'U.S.', 'name': 'Mosaic'}
+{'aau': '5-8', 'origin': 'U.S.', 'name': 'Mount Hood'}
+{'aau': '6', 'origin': 'U.S.', 'name': 'Mount Rainier'}
+{'aau': '12-14', 'origin': 'New Zealand', 'name': 'Nelson Sauvin'}
+{'aau': '10-17', 'origin': 'U.S.', 'name': 'Newport'}
+{'aau': '7.5-9.5', 'origin': 'England', 'name': 'Northdown'}
+{'aau': '8-10', 'origin': 'England', 'name': 'Northern Brewer'}
+{'aau': '12-14', 'origin': 'U.S.', 'name': 'Nugget'}
+{'aau': '3.5-5.5', 'origin': 'Germany', 'name': 'Opal'}
+{'aau': '5.0-6.0', 'origin': 'New Zealand', 'name': 'Pacifica'}
+{'aau': '14-16', 'origin': 'New Zealand', 'name': 'Pacific Gem'}
+{'aau': '12-14', 'origin': 'New Zealand', 'name': 'Pacific Jade'}
+{'aau': '6-10', 'origin': 'U.S.', 'name': 'Palisade'}
+{'aau': '6-10', 'origin': 'Germany', 'name': 'Perle'}
+{'aau': '9-13', 'origin': 'England', 'name': 'Phoenix'}
+{'aau': '9-13', 'origin': 'England', 'name': 'Pilgrim'}
+{'aau': '9-12', 'origin': 'England', 'name': 'Pilot'}
+{'aau': '8-10', 'origin': 'England', 'name': 'Pioneer'}
+{'aau': '3-4.5', 'origin': 'Poland', 'name': 'Polnischer Lublin'}
+{'aau': '7-10', 'origin': 'Australia', 'name': 'Pride of Ringwood'}
+{'aau': '5-7', 'origin': 'England', 'name': 'Progress'}
+{'aau': '4.5-6.5', 'origin': 'New Zealand', 'name': 'Riwaka'}
+{'aau': '3-4.5', 'origin': 'Czech Republic', 'name': None}
+{'aau': '7.01', 'origin': 'U.S.', 'name': 'San Juan Ruby Red'}
+{'aau': '5-7', 'origin': 'U.S.', 'name': 'Santiam'}
+{'aau': '2-4.5', 'origin': 'Germany', 'name': 'Saphir'}
+{'aau': '12.5-14', 'origin': 'U.S.', 'name': 'Satus'}
+{'aau': '4-6', 'origin': 'Germany', 'name': 'Select'}
+{'aau': '12-14', 'origin': 'U.S.', 'name': None}
+{'aau': '3.5-5.5', 'origin': 'Germany', 'name': 'Smaragd'}
+{'aau': '10.0-16.0', 'origin': 'Japan', 'name': 'Sorachi Ace'}
+{'aau': '11.0 - 14.0', 'origin': 'New Zealand', 'name': 'Southern Cross'}
+{'aau': '4-5', 'origin': 'Germany', 'name': 'Spalt'}
+{'aau': '6-9', 'origin': 'U.S.', 'name': 'Sterling'}
+{'aau': '3-5', 'origin': 'France', 'name': 'Strisselspalt'}
+{'aau': '7.0-9.5', 'origin': 'Slovenia', 'name': 'Styrian Aurora'}
+{'aau': '3.5-7.0', 'origin': 'Slovenia', 'name': 'Styrian Bobek'}
+{'aau': '4.5-6', 'origin': 'Slovenia', 'name': 'Styrian Goldings'}
+{'aau': '3.0-6.0', 'origin': 'Slovenia', 'name': 'Styrian Celeia'}
+{'aau': '17-19', 'origin': 'U.S.', 'name': 'Summit'}
+{'aau': '3.1-5.5', 'origin': 'France', 'name': 'Tardif de Bourgogne'}
+{'aau': '9.5-12.5', 'origin': 'England', 'name': 'Target'}
+{'aau': '4.0-6.0', 'origin': 'Germany', 'name': 'Taurus'}
+{'aau': '3.5-5.5', 'origin': 'Germany', 'name': 'Tettnang'}
+{'aau': '14-18', 'origin': 'U.S.', 'name': 'Tomahawk'}
+{'aau': '5-7', 'origin': 'Germany', 'name': 'Tradition'}
+{'aau': '4.5-5', 'origin': 'U.S.', 'name': 'Ultra'}
+{'aau': '5.5-6', 'origin': 'U.S.', 'name': 'Vanguard'}
+{'aau': '16-19', 'origin': 'New Zealand', 'name': 'Waimea'}
+{'aau': '15-17', 'origin': 'U.S.', 'name': 'Warrior'}
+{'aau': '5.0-8.0', 'origin': 'England', 'name': 'Whitbread Golding Variety (WGV)'}
+{'aau': '4-6', 'origin': 'U.S.', 'name': 'Willamette'}
+{'aau': '15', 'origin': 'U.S.', 'name': 'Zeus'}
