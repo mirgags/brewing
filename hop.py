@@ -9,11 +9,13 @@ class Hop(object):
         hop_name = self.name.upper()
         with open('hop_list.txt') as hop_list:
             for line in hop_list:
-                hops.append({line.rstrip()})
+                hops.append(eval(line.rstrip()))
         for hop in hops:
-            hops[hops.index(hop)]['name']
-            if hop_name.startswith(hop[len(hop)-1]['name'].upper):
-                return hops['aau']
+#            print hop['name']
+#            print hop
+            if (hop['name'].upper()).startswith(hop_name):
+                print hop['aau']
+                return hop['aau']
 
 
     def origin(self):
@@ -24,3 +26,4 @@ class Hop(object):
         for hop in hops:
             if self.name.upper == startswith(hop['name'].upper):
                 return hops['origin']
+

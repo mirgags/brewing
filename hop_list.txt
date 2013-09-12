@@ -1,11 +1,9 @@
 {'aau': '13.5-16', 'origin': 'England', 'name': 'Admiral'}
 {'aau': '5.7-6.3', 'origin': 'U.S.', 'name': 'Ahtanum'}
-{'aau': '8-11', 'origin': 'U.S.', 'name': None}
 {'aau': '20-21', 'origin': 'U.S.', 'name': 'Apollo'}
 {'aau': '5.0-7.0', 'origin': 'England', 'name': 'Bramling Cross'}
 {'aau': '7.1-11.3', 'origin': 'England', 'name': "Brewer's Gold"}
 {'aau': '6.5-9', 'origin': 'England', 'name': 'Bullion'}
-{'aau': '4.5-6', 'origin': 'U.S.', 'name': None}
 {'aau': '9.5-11.5', 'origin': 'U.S.', 'name': 'Centennial'}
 {'aau': '6.5-8.5', 'origin': 'England', 'name': 'Challenger'}
 {'aau': '12-14', 'origin': 'U.S.', 'name': 'Chinook'}
@@ -56,13 +54,11 @@
 {'aau': '7-10', 'origin': 'Australia', 'name': 'Pride of Ringwood'}
 {'aau': '5-7', 'origin': 'England', 'name': 'Progress'}
 {'aau': '4.5-6.5', 'origin': 'New Zealand', 'name': 'Riwaka'}
-{'aau': '3-4.5', 'origin': 'Czech Republic', 'name': None}
 {'aau': '7.01', 'origin': 'U.S.', 'name': 'San Juan Ruby Red'}
 {'aau': '5-7', 'origin': 'U.S.', 'name': 'Santiam'}
 {'aau': '2-4.5', 'origin': 'Germany', 'name': 'Saphir'}
 {'aau': '12.5-14', 'origin': 'U.S.', 'name': 'Satus'}
 {'aau': '4-6', 'origin': 'Germany', 'name': 'Select'}
-{'aau': '12-14', 'origin': 'U.S.', 'name': None}
 {'aau': '3.5-5.5', 'origin': 'Germany', 'name': 'Smaragd'}
 {'aau': '10.0-16.0', 'origin': 'Japan', 'name': 'Sorachi Ace'}
 {'aau': '11.0 - 14.0', 'origin': 'New Zealand', 'name': 'Southern Cross'}
