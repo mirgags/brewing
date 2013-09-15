@@ -10,9 +10,10 @@ filename = open('hop_list.pkl', 'wb')
 
 for name in root:
     if name[0].text is not None:
-        hop_list[name[0].text.upper()] = (
+        hop_list[name[0].text] = (
                                          {'aau': name[2].text,
-                                          'origin': name[1].text}
+                                          'origin': name[1].text,
+                                          'character': ""}
                                          )
 
 #for hop in hop_list:
