@@ -1,0 +1,2241 @@
+(dp0
+S''
+p1
+(dp2
+S'ferment_temp'
+p3
+g1
+sS'attenuation'
+p4
+g1
+sS'alcohol_yield'
+p5
+g1
+sS'producer'
+p6
+S'White Labs'
+p7
+sS'flocculation'
+p8
+g1
+sS'id_code'
+p9
+g1
+ssVSouthern German Lager Yeast 
+p10
+(dp11
+g3
+V50-55 °F
+p12
+sg4
+V68-76%
+p13
+sg5
+VMedium
+p14
+sg6
+g7
+sg8
+VMed-High
+p15
+sg9
+VWLP838
+p16
+ssVBavarian Lager
+p17
+(dp18
+g3
+V46-58 °F
+p19
+sg4
+V73-77%
+p20
+sg5
+V9%
+p21
+sg6
+S'Wyeast'
+p22
+sg8
+VMed-High
+p23
+sg9
+V2206
+p24
+ssVThames Valley Ale
+p25
+(dp26
+g3
+V62-72 °F
+p27
+sg4
+V77%
+p28
+sg5
+V10%
+p29
+sg6
+g22
+sg8
+VMed-Low
+p30
+sg9
+V1275
+p31
+ssVNottingham Ale Yeast 
+p32
+(dp33
+g3
+V66-70 °F
+p34
+sg4
+V73-82%
+p35
+sg5
+VMedium
+p36
+sg6
+g7
+sg8
+VMed-High
+p37
+sg9
+VWLP039
+p38
+ssVSafale \u2013 American Ale Yeast
+p39
+(dp40
+g3
+V59-75 °F
+p41
+sg4
+VMedium
+p42
+sg5
+VMedium
+p43
+sg6
+S'Fermentis'
+p44
+sg8
+VMedium
+p45
+sg9
+VUS-56
+p46
+ssVRingwood Ale
+p47
+(dp48
+g3
+V64-74 °F
+p49
+sg4
+V68-72%
+p50
+sg5
+V10%
+p51
+sg6
+g22
+sg8
+VHigh
+p52
+sg9
+V1187
+p53
+ssVBelgian Bastogne Ale Yeast 
+p54
+(dp55
+g3
+V66-72 °F
+p56
+sg4
+V74-80%
+p57
+sg5
+VHigh
+p58
+sg6
+g7
+sg8
+VMedium
+p59
+sg9
+VWLP510
+p60
+ssVBurton Ale Yeast 
+p61
+(dp62
+g3
+V68-73 °F
+p63
+sg4
+V69-75%
+p64
+sg5
+VMedium
+p65
+sg6
+g7
+sg8
+VMedium
+p66
+sg9
+VWLP023
+p67
+ssVGerman Wheat
+p68
+(dp69
+g3
+V63-75 °F
+p70
+sg4
+V70-76%
+p71
+sg5
+V10%
+p72
+sg6
+g22
+sg8
+VHigh
+p73
+sg9
+V3333
+p74
+ssVSafale \u2013 English Ale Yeast
+p75
+(dp76
+g3
+V59-75 °F
+p77
+sg4
+VMedium
+p78
+sg5
+VMedium
+p79
+sg6
+g44
+sg8
+VMedium
+p80
+sg9
+VS-04
+p81
+ssVGerman Ale II
+p82
+(dp83
+g3
+V65-70 °F
+p84
+sg4
+V73-80%
+p85
+sg5
+VMedium
+p86
+sg6
+g7
+sg8
+VMedium
+p87
+sg9
+VWLP003
+p88
+ssVAntwerp Ale Yeast 
+p89
+(dp90
+g3
+V67-70 °F
+p91
+sg4
+V73-80%
+p92
+sg5
+VMedium
+p93
+sg6
+g7
+sg8
+VMedium
+p94
+sg9
+VWLP515
+p95
+ssVSafbrew \u2013 Specialty Ale Yeast
+p96
+(dp97
+g3
+V59-75 °F
+p98
+sg4
+VMedium
+p99
+sg5
+V12%
+p100
+sg6
+g44
+sg8
+VMedium
+p101
+sg9
+VT-58
+p102
+ssVAmerican Wheat
+p103
+(dp104
+g3
+V58-74 °F
+p105
+sg4
+V74-78%
+p106
+sg5
+V10%
+p107
+sg6
+g22
+sg8
+VLow
+p108
+sg9
+V1010
+p109
+ssVEast Coast Ale Yeast 
+p110
+(dp111
+g3
+V68-73 °F
+p112
+sg4
+V70-75%
+p113
+sg5
+VMedium
+p114
+sg6
+g7
+sg8
+VMed-Low
+p115
+sg9
+VWLP008
+p116
+ssVGerman Ale/ Kölsch Yeast 
+p117
+(dp118
+g3
+V65-69 °F
+p119
+sg4
+V72-78%
+p120
+sg5
+VMedium
+p121
+sg6
+g7
+sg8
+VMedium
+p122
+sg9
+VWLP029
+p123
+ssVBavarian Wheat
+p124
+(dp125
+g3
+V64-75 °F
+p126
+sg4
+V70-76%
+p127
+sg5
+V10%
+p128
+sg6
+g22
+sg8
+VLow
+p129
+sg9
+V3638
+p130
+ssVAmerican Ale
+p131
+(dp132
+g3
+V60-72 °F
+p133
+sg4
+V73-77%
+p134
+sg5
+V10%
+p135
+sg6
+g22
+sg8
+VMed-Low
+p136
+sg9
+V1056
+p137
+ssVTrappist High Gravity
+p138
+(dp139
+g3
+V64-78 °F
+p140
+sg4
+V74-78%
+p141
+sg5
+V12%
+p142
+sg6
+g22
+sg8
+VMed-High
+p143
+sg9
+V3787
+p144
+ssVLondon Ale Yeast 
+p145
+(dp146
+g3
+V66-71 °F
+p147
+sg4
+V67-75%
+p148
+sg5
+VMedium
+p149
+sg6
+g7
+sg8
+VMedium
+p150
+sg9
+VWLP013
+p151
+ssVAbbey IV Ale Yeast 
+p152
+(dp153
+g3
+V66-72 °F
+p154
+sg4
+V74-82%
+p155
+sg5
+VHigh
+p156
+sg6
+g7
+sg8
+VMedium
+p157
+sg9
+VWLP540
+p158
+ssVLondon Ale III
+p159
+(dp160
+g3
+V64-74 °F
+p161
+sg4
+V71-75%
+p162
+sg5
+V10%
+p163
+sg6
+g22
+sg8
+VHigh
+p164
+sg9
+V1318
+p165
+ssVNorthwest Ale
+p166
+(dp167
+g3
+V65-75 °F
+p168
+sg4
+V67-71%
+p169
+sg5
+V10%
+p170
+sg6
+g22
+sg8
+VHigh
+p171
+sg9
+V1332
+p172
+ssVGerman Ale
+p173
+(dp174
+g3
+V55-68 °F
+p175
+sg4
+V73-77%
+p176
+sg5
+V11%
+p177
+sg6
+g22
+sg8
+VLow
+p178
+sg9
+V1007
+p179
+ssVLondon Ale
+p180
+(dp181
+g3
+V60-72 °F
+p182
+sg4
+V73-77%
+p183
+sg5
+V10%
+p184
+sg6
+g22
+sg8
+VMed-Low
+p185
+sg9
+V1028
+p186
+ssVEnglish Ale Yeast 
+p187
+(dp188
+g3
+V65-68 °F
+p189
+sg4
+V67-70%
+p190
+sg5
+VMedium
+p191
+sg6
+g7
+sg8
+VMedium
+p192
+sg9
+VWLP002
+p193
+ssVSweet Mead
+p194
+(dp195
+g3
+V65-75 °F
+p196
+sg4
+VNA
+p197
+sg5
+V11%
+p198
+sg6
+g22
+sg8
+VMedium
+p199
+sg9
+V4184
+p200
+ssVBelgian Golden Ale Yeast 
+p201
+(dp202
+g3
+V68-75 °F
+p203
+sg4
+V73-78%
+p204
+sg5
+VHigh
+p205
+sg6
+g7
+sg8
+VLow
+p206
+sg9
+VWLP570
+p207
+ssVBelgian Ale
+p208
+(dp209
+g3
+V68-78 °F
+p210
+sg4
+V73-77%
+p211
+sg5
+V9%
+p212
+sg6
+g22
+sg8
+VMed-Low
+p213
+sg9
+V1214
+p214
+ssVBelgian Ardennes
+p215
+(dp216
+g3
+V65-85 °F
+p217
+sg4
+V72-76%
+p218
+sg5
+V12%
+p219
+sg6
+g22
+sg8
+VHigh
+p220
+sg9
+V3522
+p221
+ssVCzech Pils
+p222
+(dp223
+g3
+V50-58 °F
+p224
+sg4
+V70-74%
+p225
+sg5
+V9%
+p226
+sg6
+g22
+sg8
+VMed-High
+p227
+sg9
+V2278
+p228
+ssVBelgian Witbier 
+p229
+(dp230
+g3
+V62-75 °F
+p231
+sg4
+V72-76%
+p232
+sg5
+V12%
+p233
+sg6
+g22
+sg8
+VMed-Low
+p234
+sg9
+V3944
+p235
+ssVForbidden Fruit
+p236
+(dp237
+g3
+V63-76 °F
+p238
+sg4
+V72-76%
+p239
+sg5
+V12%
+p240
+sg6
+g22
+sg8
+VLow
+p241
+sg9
+V3463
+p242
+ssVMexican Lager Yeast 
+p243
+(dp244
+g3
+V50-55 °F
+p245
+sg4
+V70-78%
+p246
+sg5
+VMedium
+p247
+sg6
+g7
+sg8
+VMedium
+p248
+sg9
+VWLP940
+p249
+ssVSan Francisco Lager Yeast 
+p250
+(dp251
+g3
+V58-65 °F
+p252
+sg4
+V65-70%
+p253
+sg5
+VMed-High
+p254
+sg6
+g7
+sg8
+VHigh
+p255
+sg9
+VWLP810
+p256
+ssVEuropean Ale
+p257
+(dp258
+g3
+V62-72 °F
+p259
+sg4
+V67-71%
+p260
+sg5
+V10%
+p261
+sg6
+g22
+sg8
+VHigh
+p262
+sg9
+V1338
+p263
+ssVDry Mead
+p264
+(dp265
+g3
+V55-75 °F
+p266
+sg4
+VNA
+p267
+sg5
+V18%
+p268
+sg6
+g22
+sg8
+VLow-Med
+p269
+sg9
+V4632
+p270
+ssVScottish Ale
+p271
+(dp272
+g3
+V55-75 °F
+p273
+sg4
+V69-73%
+p274
+sg5
+V12%
+p275
+sg6
+g22
+sg8
+VHigh
+p276
+sg9
+V1728
+p277
+ssVBelgian Saison
+p278
+(dp279
+g3
+V70-95 °F
+p280
+sg4
+V76-80%
+p281
+sg5
+V12%
+p282
+sg6
+g22
+sg8
+VLow
+p283
+sg9
+V3724
+p284
+ssVBritish Ale Yeast 
+p285
+(dp286
+g3
+V65-70 °F
+p287
+sg4
+V67-74%
+p288
+sg5
+VMedium
+p289
+sg6
+g7
+sg8
+VHigh
+p290
+sg9
+VWLP005
+p291
+ssVDusseldorf Alt Yeast 
+p292
+(dp293
+g3
+V65-72 °F
+p294
+sg4
+V65-72%
+p295
+sg5
+VMedium
+p296
+sg6
+g7
+sg8
+VMedium
+p297
+sg9
+VWLP036
+p298
+ssVEssex Ale Yeast 
+p299
+(dp300
+g3
+V66-70 °F
+p301
+sg4
+V71-76%
+p302
+sg5
+VMedium
+p303
+sg6
+g7
+sg8
+VMed-High
+p304
+sg9
+VWLP022
+p305
+ssVPilsen Lager
+p306
+(dp307
+g3
+V48-56 °F
+p308
+sg4
+V71-75%
+p309
+sg5
+V9%
+p310
+sg6
+g22
+sg8
+VMedium
+p311
+sg9
+V2007
+p312
+ssVBelgian Wheat
+p313
+(dp314
+g3
+V64-74 °F
+p315
+sg4
+V72-76%
+p316
+sg5
+V12%
+p317
+sg6
+g22
+sg8
+VMedium
+p318
+sg9
+V3942
+p319
+ssVEdinburgh Scottish Ale Yeast 
+p320
+(dp321
+g3
+V65-70 °F
+p322
+sg4
+V70-75%
+p323
+sg5
+VMed-High
+p324
+sg6
+g7
+sg8
+VMedium
+p325
+sg9
+VWLP028
+p326
+ssVBelgian Lambic Blend
+p327
+(dp328
+g3
+V63-75 °F
+p329
+sg4
+V-
+p330
+sg5
+V12%
+p331
+sg6
+g22
+sg8
+g330
+sg9
+V3278
+p332
+ssVDry English Ale Yeast 
+p333
+(dp334
+g3
+V65-70 °F
+p335
+sg4
+V70-80%
+p336
+sg5
+VMed-High
+p337
+sg6
+g7
+sg8
+VMed-High
+p338
+sg9
+VWLP007
+p339
+ssVAmerican Ale Yeast Blend 
+p340
+(dp341
+g3
+V68-72 °F
+p342
+sg4
+V72-80%
+p343
+sg5
+VMed-High
+p344
+sg6
+g7
+sg8
+VMedium
+p345
+sg9
+VWLP060
+p346
+ssVCalifornia Lager
+p347
+(dp348
+g3
+V58-68 °F
+p349
+sg4
+V67-71%
+p350
+sg5
+V9%
+p351
+sg6
+g22
+sg8
+VHigh
+p352
+sg9
+V2112
+p353
+ssVOktoberfest/Märzen Lager Yeast 
+p354
+(dp355
+g3
+V52-58 °F
+p356
+sg4
+V65-73%
+p357
+sg5
+VMed-High
+p358
+sg6
+g7
+sg8
+VMedium
+p359
+sg9
+VWLP820
+p360
+ssVWhitbread Ale
+p361
+(dp362
+g3
+V64-75 °F
+p363
+sg4
+V68-72%
+p364
+sg5
+V10%
+p365
+sg6
+g22
+sg8
+VHigh
+p366
+sg9
+V1099
+p367
+ssVBavarian Weizen Yeast 
+p368
+(dp369
+g3
+V66-70 °F
+p370
+sg4
+V73-77%
+p371
+sg5
+VMedium
+p372
+sg6
+g7
+sg8
+VLow
+p373
+sg9
+VWLP351
+p374
+ssVUrquell Lager
+p375
+(dp376
+g3
+V48-58 °F
+p377
+sg4
+V72-76%
+p378
+sg5
+V9%
+p379
+sg6
+g22
+sg8
+VMed-High
+p380
+sg9
+V2001
+p381
+ssVAmerican Ale II
+p382
+(dp383
+g3
+V60-72 °F
+p384
+sg4
+V72-76%
+p385
+sg5
+V10%
+p386
+sg6
+g22
+sg8
+VHigh
+p387
+sg9
+V1272
+p388
+ssVTrappist Ale Yeast 
+p389
+(dp390
+g3
+V65-72 °F
+p391
+sg4
+V75-80%
+p392
+sg5
+VHigh
+p393
+sg6
+g7
+sg8
+VMed-Low
+p394
+sg9
+VWLP500
+p395
+ssVPediococcus 
+p396
+(dp397
+g3
+V60-95 °F
+p398
+sg4
+g330
+sg5
+V9%
+p399
+sg6
+g22
+sg8
+g330
+sg9
+V5733
+p400
+ssVSuper High Gravity Ale Yeast 
+p401
+(dp402
+g3
+V65-69 °F
+p403
+sg4
+V>80%
+p404
+sg5
+VVery High
+p405
+sg6
+g7
+sg8
+VMedium
+p406
+sg9
+VWLP099
+p407
+ssVBelgian Style Saison Blend 
+p408
+(dp409
+g3
+V70-80 °F
+p410
+sg4
+V70-80%
+p411
+sg5
+VMedium
+p412
+sg6
+g7
+sg8
+VMedium
+p413
+sg9
+VWLP568
+p414
+ssVBedford British 
+p415
+(dp416
+g3
+V65-70 °F
+p417
+sg4
+V72-80%
+p418
+sg5
+VMedium
+p419
+sg6
+g7
+sg8
+VHigh
+p420
+sg9
+VWLP006
+p421
+ssVIrish Ale Yeast 
+p422
+(dp423
+g3
+V65-68 °F
+p424
+sg4
+V69-74%
+p425
+sg5
+VMed-High
+p426
+sg6
+g7
+sg8
+VMed-High
+p427
+sg9
+VWLP004
+p428
+ssVBelgian Strong Ale
+p429
+(dp430
+g3
+V64-80 °F
+p431
+sg4
+V74-78%
+p432
+sg5
+V12%
+p433
+sg6
+g22
+sg8
+VLow
+p434
+sg9
+V1388
+p435
+ssVEuropean Ale Yeast 
+p436
+(dp437
+g3
+V65-70 °F
+p438
+sg4
+V65-70%
+p439
+sg5
+VMedium
+p440
+sg6
+g7
+sg8
+VMedium
+p441
+sg9
+VWLP011
+p442
+ssVBritish Ale
+p443
+(dp444
+g3
+V63-75 °F
+p445
+sg4
+V73-76%
+p446
+sg5
+V10%
+p447
+sg6
+g22
+sg8
+VHigh
+p448
+sg9
+V1335
+p449
+ssVOctoberfest Lager Blend 
+p450
+(dp451
+g3
+V48-58 °F
+p452
+sg4
+V73-77%
+p453
+sg5
+V9%
+p454
+sg6
+g22
+sg8
+VMed-Low
+p455
+sg9
+V2633
+p456
+ssVAmerican Lager
+p457
+(dp458
+g3
+V48-58 °F
+p459
+sg4
+V73-77%
+p460
+sg5
+V9%
+p461
+sg6
+g22
+sg8
+VMedium
+p462
+sg9
+V2035
+p463
+ssVEnglish Cider Yeast
+p464
+(dp465
+g3
+V68-75 °F
+p466
+sg4
+V>80%
+p467
+sg5
+VMed-High
+p468
+sg6
+g7
+sg8
+VMedium
+p469
+sg9
+VWLP775
+p470
+ssVDanish Lager
+p471
+(dp472
+g3
+V46-56 °F
+p473
+sg4
+V73-77%
+p474
+sg5
+V9%
+p475
+sg6
+g22
+sg8
+VLow
+p476
+sg9
+V2042
+p477
+ssVSafale \u2013 German Ale Yeast
+p478
+(dp479
+g3
+V59-75 °F
+p480
+sg4
+VMedium
+p481
+sg5
+VMedium
+p482
+sg6
+g44
+sg8
+VMedium
+p483
+sg9
+VK-97
+p484
+ssVKölsh
+p485
+(dp486
+g3
+V56-70 °F
+p487
+sg4
+V73-77%
+p488
+sg5
+V10%
+p489
+sg6
+g22
+sg8
+VLow
+p490
+sg9
+V2565
+p491
+ssVHefeweizen IV Ale Yeast 
+p492
+(dp493
+g3
+V66-70 °F
+p494
+sg4
+V73-80%
+p495
+sg5
+VMedium
+p496
+sg6
+g7
+sg8
+VLow
+p497
+sg9
+VWLP380
+p498
+ssVBelgian Wit Ale Yeast 
+p499
+(dp500
+g3
+V67-74 °F
+p501
+sg4
+V74-78%
+p502
+sg5
+VMedium
+p503
+sg6
+g7
+sg8
+VLow-Med
+p504
+sg9
+VWLP400
+p505
+ssVBrettanomyces lambicus
+p506
+(dp507
+g3
+V60-75 °F
+p508
+sg4
+VMedium
+p509
+sg5
+V12%
+p510
+sg6
+g22
+sg8
+VVery High
+p511
+sg9
+V5526
+p512
+ssVGerman Lager Yeast 
+p513
+(dp514
+g3
+V50-55 °F
+p515
+sg4
+V74-79%
+p516
+sg5
+VMedium
+p517
+sg6
+g7
+sg8
+VMedium
+p518
+sg9
+VWLP830
+p519
+ssVEnglish Ale Blend 
+p520
+(dp521
+g3
+V68-72 °F
+p522
+sg4
+V69-76%
+p523
+sg5
+VMedium
+p524
+sg6
+g7
+sg8
+VMed-High
+p525
+sg9
+VWLP085
+p526
+ssVBelgian Style Ale Yeast Blend 
+p527
+(dp528
+g3
+V68-75 °F
+p529
+sg4
+V74-80%
+p530
+sg5
+VMed-High
+p531
+sg6
+g7
+sg8
+VMedium
+p532
+sg9
+VWLP575
+p533
+ssVCider
+p534
+(dp535
+g3
+V65-70 °F
+p536
+sg4
+VNA
+p537
+sg5
+V12%
+p538
+sg6
+g22
+sg8
+VLow
+p539
+sg9
+V4766
+p540
+ssVBelgian Wit II Ale Yeast
+p541
+(dp542
+g3
+V67-74 °F
+p543
+sg4
+V70-75%
+p544
+sg5
+VMedium
+p545
+sg6
+g7
+sg8
+VLow-Med
+p546
+sg9
+VWLP410
+p547
+ssVChampagne Yeast 
+p548
+(dp549
+g3
+V70-75 °F
+p550
+sg4
+V>75%
+p551
+sg5
+V17%
+p552
+sg6
+g7
+sg8
+VLow
+p553
+sg9
+VWLP715
+p554
+ssVCalifornia Ale Yeast 
+p555
+(dp556
+g3
+V68-73 °F
+p557
+sg4
+V73-80%
+p558
+sg5
+VHigh
+p559
+sg6
+g7
+sg8
+VMedium
+p560
+sg9
+VWLP001
+p561
+ssVLactobacillus
+p562
+(dp563
+g3
+V60-95 °F
+p564
+sg4
+g330
+sg5
+V9%
+p565
+sg6
+g22
+sg8
+g330
+sg9
+V5335
+p566
+ssVBohemian Lager
+p567
+(dp568
+g3
+V48-58 °F
+p569
+sg4
+V73-77%
+p570
+sg5
+V9%
+p571
+sg6
+g22
+sg8
+VMedium
+p572
+sg9
+V2124
+p573
+ssVBudvar Lager
+p574
+(dp575
+g3
+V48-56 °F
+p576
+sg4
+V71-75%
+p577
+sg5
+V9%
+p578
+sg6
+g22
+sg8
+VMed-High
+p579
+sg9
+V2000
+p580
+ssVSweet Mead/Wine Yeast
+p581
+(dp582
+g3
+V70-75 °F
+p583
+sg4
+V<75%
+p584
+sg5
+V15%
+p585
+sg6
+g7
+sg8
+VLow
+p586
+sg9
+VWLP720
+p587
+ssVSafbrew \u2013 Wheat Beer Yeast
+p588
+(dp589
+g3
+V59-75 °F
+p590
+sg4
+VMedium
+p591
+sg5
+VMedium
+p592
+sg6
+g44
+sg8
+VLow
+p593
+sg9
+VWB-06
+p594
+ssVPilsner Lager Yeast
+p595
+(dp596
+g3
+V50-55 °F
+p597
+sg4
+V72-77%
+p598
+sg5
+VMedium
+p599
+sg6
+g7
+sg8
+VMed-High
+p600
+sg9
+VWLP800
+p601
+ssVZurich Lager Yeast 
+p602
+(dp603
+g3
+V50-55 °F
+p604
+sg4
+V70-80%
+p605
+sg5
+VMedium
+p606
+sg6
+g7
+sg8
+VMedium
+p607
+sg9
+VWLP885
+p608
+ssVBelgian Ale Yeast 
+p609
+(dp610
+g3
+V68-78 °F
+p611
+sg4
+V78-85%
+p612
+sg5
+VMed-High
+p613
+sg6
+g7
+sg8
+VMedium
+p614
+sg9
+VWLP550
+p615
+ssVCalifornia Ale V Yeast 
+p616
+(dp617
+g3
+V66-70 °F
+p618
+sg4
+V70-75%
+p619
+sg5
+VMed-High
+p620
+sg6
+g7
+sg8
+VMed-High
+p621
+sg9
+VWLP051
+p622
+ssVCzech Budejovice Lager Yeast 
+p623
+(dp624
+g3
+V50-55 °F
+p625
+sg4
+V75-80%
+p626
+sg5
+VMedium
+p627
+sg6
+g7
+sg8
+VMedium
+p628
+sg9
+VWLP802
+p629
+ssVBelgian Saison I Yeast 
+p630
+(dp631
+g3
+V68-75 °F
+p632
+sg4
+V65-75%
+p633
+sg5
+VMedium
+p634
+sg6
+g7
+sg8
+VMedium
+p635
+sg9
+VWLP565
+p636
+ssVBrettanomyces bruxellensis
+p637
+(dp638
+g3
+V60-75 °F
+p639
+sg4
+VVery High
+p640
+sg5
+V12%
+p641
+sg6
+g22
+sg8
+VMedium
+p642
+sg9
+V5112
+p643
+ssVAustralian Ale Yeast 
+p644
+(dp645
+g3
+V65-70 °F
+p646
+sg4
+V70-75%
+p647
+sg5
+VMedium
+p648
+sg6
+g7
+sg8
+VHigh
+p649
+sg9
+VWLP009
+p650
+ssVIrish Ale
+p651
+(dp652
+g3
+V62-72 °F
+p653
+sg4
+V71-75%
+p654
+sg5
+V10%
+p655
+sg6
+g22
+sg8
+VMedium
+p656
+sg9
+V1084
+p657
+ssVMunich Lager
+p658
+(dp659
+g3
+V48-56 °F
+p660
+sg4
+V70-74%
+p661
+sg5
+V9%
+p662
+sg6
+g22
+sg8
+VMedium
+p663
+sg9
+V2308
+p664
+ssVSaflager \u2013 Swiss Lager Yeast
+p665
+(dp666
+g3
+V48-59 °F
+p667
+sg4
+VMedium
+p668
+sg5
+VMedium
+p669
+sg6
+g44
+sg8
+VHigh
+p670
+sg9
+VS-189
+p671
+ssVCry Havoc 
+p672
+(dp673
+g3
+V68-74 °F 
+p674
+sg4
+V66-70%
+p675
+sg5
+VMedium
+p676
+sg6
+g7
+sg8
+VMed-Low
+p677
+sg9
+VWLP862
+p678
+ssVGerman Bock Lager Yeast 
+p679
+(dp680
+g3
+V48-55 °F
+p681
+sg4
+V70-76%
+p682
+sg5
+VMed-High
+p683
+sg6
+g7
+sg8
+VMedium
+p684
+sg9
+VWLP833
+p685
+ssVWeihenstephan Weizen
+p686
+(dp687
+g3
+V64-75 °F
+p688
+sg4
+V73-77%
+p689
+sg5
+V10%
+p690
+sg6
+g22
+sg8
+VLow
+p691
+sg9
+V3068
+p692
+ssVAmerican Lager Yeast 
+p693
+(dp694
+g3
+V50-55 °F
+p695
+sg4
+V75-80%
+p696
+sg5
+VMedium
+p697
+sg6
+g7
+sg8
+VMedium
+p698
+sg9
+VWLP840
+p699
+ssVSaflager \u2013 German Lager Yeast
+p700
+(dp701
+g3
+V48-59 °F
+p702
+sg4
+VMedium
+p703
+sg5
+VMedium
+p704
+sg6
+g44
+sg8
+VHigh
+p705
+sg9
+VW-34/70
+p706
+ssVBelgian Abby Ale II
+p707
+(dp708
+g3
+V65-75 °F
+p709
+sg4
+V73-77%
+p710
+sg5
+V12%
+p711
+sg6
+g22
+sg8
+VMedium
+p712
+sg9
+V1762
+p713
+ssVAmerican Hefeweizen Ale Yeast 
+p714
+(dp715
+g3
+V65-69 °F
+p716
+sg4
+V70-75%
+p717
+sg5
+VMedium
+p718
+sg6
+g7
+sg8
+VLow
+p719
+sg9
+VWLP320
+p720
+ssS'Name'
+p721
+(dp722
+g3
+S'Optimum Temp'
+p723
+sg4
+S'Attenuation'
+p724
+sg5
+S'Alcohol Tolerance'
+p725
+sg6
+g7
+sg8
+S'Flocculation'
+p726
+sg9
+S'ID'
+p727
+ssVAbbey Ale Yeast 
+p728
+(dp729
+g3
+V66-72 °F
+p730
+sg4
+V75-80%
+p731
+sg5
+VHigh
+p732
+sg6
+g7
+sg8
+VMed-High
+p733
+sg9
+VWLP530
+p734
+ssVBelgian Saison II Yeast
+p735
+(dp736
+g3
+V68-78 °F
+p737
+sg4
+V78-85%
+p738
+sg5
+VMedium
+p739
+sg6
+g7
+sg8
+VMedium
+p740
+sg9
+VWLP566
+p741
+ssVPacific Ale Yeast 
+p742
+(dp743
+g3
+V65-68 °F
+p744
+sg4
+V65-70%
+p745
+sg5
+VMedium
+p746
+sg6
+g7
+sg8
+VHigh
+p747
+sg9
+VWLP041
+p748
+ssVCream Ale Yeast Blend
+p749
+(dp750
+g3
+V65-70 °F
+p751
+sg4
+V75-80%
+p752
+sg5
+VMed-High
+p753
+sg6
+g7
+sg8
+VMedium
+p754
+sg9
+VWLP080
+p755
+ssVHefeweizen Ale Yeast 
+p756
+(dp757
+g3
+V68-72 °F
+p758
+sg4
+V72-76%
+p759
+sg5
+VMedium
+p760
+sg6
+g7
+sg8
+VLow
+p761
+sg9
+VWLP300
+p762
+ssVFrench Ale 
+p763
+(dp764
+g3
+V63-67 °F
+p765
+sg4
+V68-75%
+p766
+sg5
+VMedium
+p767
+sg6
+g7
+sg8
+VMed-High
+p768
+sg9
+VWLP072
+p769
+ssVSafbrew \u2013 General/Belgian Yeast
+p770
+(dp771
+g3
+V59-75 °F
+p772
+sg4
+VHigh
+p773
+sg5
+V12%
+p774
+sg6
+g44
+sg8
+VMedium
+p775
+sg9
+VS-33
+p776
+ssVLondon ESB Ale
+p777
+(dp778
+g3
+V64-72 °F
+p779
+sg4
+V67-71%
+p780
+sg5
+V10%
+p781
+sg6
+g22
+sg8
+VVery High
+p782
+sg9
+V1968
+p783
+ss.

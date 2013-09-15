@@ -25,6 +25,7 @@ class Grain(object):
             self.lovibond = ""
             self.gravity = ""
             self.character = ""
+        self.lbs = ""
        
 
     def read_grainfile(self):

@@ -25,6 +25,8 @@ class Hop(object):
             self.aau = ""
             self.origin = ""
             self.character = ""
+        self.add_time = ""
+        self.ounces = ""
        
 
     def read_hopfile(self):
