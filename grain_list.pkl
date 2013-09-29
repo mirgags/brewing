@@ -8,1163 +8,1010 @@ VImparts intense, sweet flavor. A British mixture of molasses, invert sugar and 
 p4
 sS'gravity'
 p5
-V1.036
-p6
+F1.036
 sS'lovibond'
-p7
+p6
 V100°
-p8
+p7
 ssVCaramel Wheat Malt
-p9
-(dp10
+p8
+(dp9
 g3
 V1.035
-p11
+p10
 sg5
-V
-p12
-sg7
+F1.035
+sg6
 V38-53°
-p13
+p11
 ssVCarafa I
-p14
-(dp15
+p12
+(dp13
 g3
 VGives deep  aroma  and color to dark beers, bocks, stout, alt and schwarzbier. 
-p16
+p14
 sg5
-V1.038
-p17
-sg7
+F1.038
+sg6
 V300-340°
-p18
+p15
 ssVCrystal Malt 80°
-p19
-(dp20
+p16
+(dp17
 g3
 V1.033-35
-p21
+p18
 sg5
-g12
-sg7
+F1.033
+sg6
 V80°
-p22
+p19
 ssS'Lactose'
-p23
-(dp24
+p20
+(dp21
 g3
 S'Adds sweetness and body. Use in sweet or milk stouts.'
-p25
+p22
 sg5
-S'1.043'
+F1.043
+sg6
+S'NA'
+p23
+ssS'Malto Dextrin'
+p24
+(dp25
+g3
+S'Adds body and mouthfeel.  For all extract beers. Does not ferment.'
 p26
-sg7
+sg5
+F1.043
+sg6
 S'NA'
 p27
-ssS'Belgian Grains'
+ssVCaramunich Malt
 p28
 (dp29
 g3
-S''
+V1.033
 p30
 sg5
-g30
-sg7
-g30
-ssS'Malto Dextrin'
+F1.033
+sg6
+V
 p31
-(dp32
+ssVBiscuit Malt
+p32
+(dp33
 g3
-S'Adds body and mouthfeel.  For all extract beers. Does not ferment.'
-p33
-sg5
-S'1.043'
+VWarm baked biscuit flavor and aroma. Increases body. Use in Belgian beers.
 p34
-sg7
-S'NA'
+sg5
+F1.035
+sg6
+V23-25°
 p35
-ssVCaramunich Malt
+ssS'Licorice Stick'
 p36
 (dp37
 g3
-V1.033
+S'Adds a smooth flavor to stouts, porters, holiday ales and flavored beers.'
 p38
 sg5
-V56°
+F0.0
+sg6
+S'NA'
 p39
-sg7
-g12
-ssVBiscuit Malt
+ssVDark Brown Sugar
 p40
 (dp41
 g3
-VWarm baked biscuit flavor and aroma. Increases body. Use in Belgian beers.
+VImparts rich, sweet flavor. Use in Scottish ales, old ales and holiday beers.
 p42
 sg5
-V1.035
-p43
-sg7
-V23-25°
-p44
-ssS'Licorice Stick'
-p45
-(dp46
-g3
-S'Adds a smooth flavor to stouts, porters, holiday ales and flavored beers.'
-p47
-sg5
-S'NA'
-p48
-sg7
-S'NA'
-p49
-ssVDark Brown Sugar
-p50
-(dp51
-g3
-VImparts rich, sweet flavor. Use in Scottish ales, old ales and holiday beers.
-p52
-sg5
-V1.046
-p53
-sg7
+F1.046
+sg6
 V60°
-p54
+p43
 ssVFlaked Wheat
+p44
+(dp45
+g3
+V1.036
+p46
+sg5
+F1.036
+sg6
+g31
+ssVMild Ale Malt
+p47
+(dp48
+g3
+VDry, nutty malty flavor.  Promotes body.  Use in English mild ales.
+p49
+sg5
+F1.037
+sg6
+V2.3-2.7° 
+p50
+ssVBrown Malt
+p51
+(dp52
+g3
+VImparts a dry, biscuit flavor.  Use in porters, brown, nut brown and Belgian ales.
+p53
+sg5
+F1.032
+sg6
+V65°
+p54
+ssVRice Solids
 p55
 (dp56
 g3
-V1.036
-p57
+g31
 sg5
-V2°
-p58
-sg7
-g12
-ssVMild Ale Malt
-p59
-(dp60
-g3
-VDry, nutty malty flavor.  Promotes body.  Use in English mild ales.
-p61
-sg5
-V1.037
-p62
-sg7
-V2.3-2.7° 
-p63
-ssVBrown Malt
-p64
-(dp65
-g3
-VImparts a dry, biscuit flavor.  Use in porters, brown, nut brown and Belgian ales.
-p66
-sg5
-V1.032
-p67
-sg7
-V65°
-p68
-ssVAmerican Grains
-p69
-(dp70
-g3
-g12
-sg5
-V 
-p71
-sg7
-V 
-p72
-ssVRice Solids
-p73
-(dp74
-g3
-g12
-sg5
-V1.040
-p75
-sg7
+F1.04
+sg6
 V0.01°
-p76
+p57
 ssVCaravienne Malt
-p77
-(dp78
+p58
+(dp59
 g3
 V1.034
-p79
+p60
 sg5
-g12
-sg7
+F1.034
+sg6
 V21-22°
-p80
+p61
 ssVMelanoidin Malt 
-p81
-(dp82
+p62
+(dp63
 g3
 VFor amber lagers and ales, dark lagers and ales, Scottish & red ales.
-p83
+p64
 sg5
-V1.033
-p84
-sg7
+F1.033
+sg6
 V23-31°
-p85
+p65
 ssVDry Malt Extract
+p66
+(dp67
+g3
+V1.044
+p68
+sg5
+F1.044
+sg6
+VVaries
+p69
+ssVAmber Malt
+p70
+(dp71
+g3
+VRoasted malt used  in British milds, old ales, brown ales, nut brown ales.
+p72
+sg5
+F1.032
+sg6
+V35°
+p73
+ssVCaraHell Malt (light crystal) 
+p74
+(dp75
+g3
+VFor light colored beer for body; hefeweizen, pale ale, golden ale, Oktoberfest.
+p76
+sg5
+F1.033
+sg6
+V8-12°
+p77
+ssVRauch Smoked Malt
+p78
+(dp79
+g3
+VFor rauchbier, kellerbier, smoked porters, Scottish ales and barleywines.
+p80
+sg5
+F1.037
+sg6
+V2-4°
+p81
+ssVWheat Malt
+p82
+(dp83
+g3
+VLight flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers. 
+p84
+sg5
+F1.038
+sg6
+V2° 
+p85
+ssVCaraMunich Malt I 
 p86
 (dp87
 g3
-V1.044
+VProvides body. For Oktoberfest, bock, porter, stout, red, amber and brown ales.
 p88
 sg5
-g12
-sg7
-VVaries
+F1.033
+sg6
+V30-38° 
 p89
-ssVAmber Malt
+ssVPale Malt (Brewers 2-row)
 p90
 (dp91
 g3
-VRoasted malt used  in British milds, old ales, brown ales, nut brown ales.
+VSmooth, less grainy, moderate malt flavor.  Basic malt for all beer styles.
 p92
 sg5
-V1.032
+F1.037
+sg6
+V1.8°
 p93
-sg7
-V35°
+ssVMunich Malt
 p94
-ssVCaraHell Malt (light crystal) 
-p95
-(dp96
+(dp95
 g3
-VFor light colored beer for body; hefeweizen, pale ale, golden ale, Oktoberfest.
+VSweet, toasted flavor and aroma.  For Oktoberfests and malty styles.
+p96
+sg5
+F1.034
+sg6
+V10°
 p97
-sg5
-V1.033-35
+ssVBelgian Candi Sugar (clear)
 p98
-sg7
-V8-12°
-p99
-ssVRauch Smoked Malt
+(dp99
+g3
+VSmooth taste, good head retention, sweet aroma and high gravity without being apparent. Use in Belgian and holiday ales. Use clear for tripels, amber for dubbels, and dark is used in brown beer and strong golden ales.
 p100
-(dp101
-g3
-VFor rauchbier, kellerbier, smoked porters, Scottish ales and barleywines.
+sg5
+F1.036
+sg6
+V0.5°
+p101
+ssVPale Ale
 p102
-sg5
-V1.037
-p103
-sg7
-V2-4°
-p104
-ssVWheat Malt
-p105
-(dp106
+(dp103
 g3
-VLight flavor, creamy head. For wheat beers, stouts, doppelbocks and alt beers. 
-p107
-sg5
 V1.038
+p104
+sg5
+F1.038
+sg6
+V2.2° 
+p105
+ssVDark Crystal Malt 145-188°
+p106
+(dp107
+g3
+VSweet caramel flavor, mouthfeel. For porters, stouts, old ales and any dark ale.
 p108
-sg7
-V2° 
+sg5
+F1.033
+sg6
+V145-188°
 p109
-ssVCaraMunich Malt I 
+ssVWhite Wheat Malt
 p110
 (dp111
 g3
-VProvides body. For Oktoberfest, bock, porter, stout, red, amber and brown ales.
+g31
+sg5
+F1.037
+sg6
+V2°
 p112
-sg5
-V1.033-35
+ssS'Honey'
 p113
-sg7
-V30-38° 
-p114
-ssVPale Malt (Brewers 2-row)
+(dp114
+g3
+S''
 p115
-(dp116
-g3
-VSmooth, less grainy, moderate malt flavor.  Basic malt for all beer styles.
+sg5
+F1.032
+sg6
+S'Varies'
+p116
+ssVGambrinus Honey Malt 
 p117
-sg5
-V1.037-38
-p118
-sg7
-V1.8°
-p119
-ssVMunich Malt
-p120
-(dp121
+(dp118
 g3
-VSweet, toasted flavor and aroma.  For Oktoberfests and malty styles.
-p122
-sg5
 V1.034
+p119
+sg5
+F1.034
+sg6
+V25°
+p120
+ssS'Oak Chips'
+p121
+(dp122
+g3
+S'Creates cask-conditioned flavor and aroma. Use in IPAs, Belgian ales and Scottish ales. Steam for 15 minutes to sanitize.'
 p123
-sg7
-V10°
+sg5
+F0.0
+sg6
+S'NA'
 p124
-ssVBelgian Candi Sugar (clear)
+ssS'Irish Moss'
 p125
 (dp126
 g3
-VSmooth taste, good head retention, sweet aroma and high gravity without being apparent. Use in Belgian and holiday ales. Use clear for tripels, amber for dubbels, and dark is used in brown beer and strong golden ales.
+S'Prevents chill haze. Use in all beers except cloudy wheat and white beers.'
 p127
 sg5
-V1.036
+F0.0
+sg6
+S'NA'
 p128
-sg7
-V0.5°
+ssVMolasses
 p129
-ssVPale Ale
-p130
-(dp131
+(dp130
+g3
+V1.036
+p131
+sg5
+F1.036
+sg6
+V80°
+p132
+ssVWheat Malt 
+p133
+(dp134
 g3
 V1.038
-p132
+p135
 sg5
-g12
-sg7
-V2.2° 
-p133
-ssVDark Crystal Malt 145-188°
-p134
-(dp135
-g3
-VSweet caramel flavor, mouthfeel. For porters, stouts, old ales and any dark ale.
-p136
-sg5
-V1.033-35
-p137
-sg7
-V145-188°
-p138
-ssVWhite Wheat Malt
-p139
-(dp140
-g3
-g12
-sg5
-V1.037
-p141
-sg7
+F1.038
+sg6
 V2°
-p142
-ssV 
+p136
+ssVTorrified Wheat
+p137
+(dp138
+g3
+VPuffed wheat created by high heat. Use in pale ales, bitters and milds.
+p139
+sg5
+F1.036
+sg6
+V1-1.5°
+p140
+ssVCara-Pils Dextrin
+p141
+(dp142
+g3
+VAdds body; aids head retention.  For porters, stouts and heavier bodied beers.
 p143
-(dp144
-g3
-V 
+sg5
+F1.033
+sg6
+V10-14° 
+p144
+ssVCrystal Malt 120°
 p145
-sg5
-V 
-p146
-sg7
-V 
-p147
-ssVGambrinus Honey Malt 
-p148
-(dp149
+(dp146
 g3
-V1.034
-p150
+VPronounced caramel flavor and a red color. For stouts, porters and black beers.
+p147
 sg5
-g12
-sg7
-V25°
+F1.033
+sg6
+V120°
+p148
+ssVCarafa II
+p149
+(dp150
+g3
+V1.038
 p151
-ssS'Oak Chips'
+sg5
+F1.038
+sg6
+g31
+ssVBlack Patent Malt
 p152
 (dp153
 g3
-S'Creates cask-conditioned flavor and aroma. Use in IPAs, Belgian ales and Scottish ales. Steam for 15 minutes to sanitize.'
+V1.026
 p154
 sg5
-S'NA'
-p155
-sg7
-S'NA'
-p156
-ssS'Irish Moss'
-p157
-(dp158
-g3
-S'Prevents chill haze. Use in all beers except cloudy wheat and white beers.'
-p159
-sg5
-S'NA'
-p160
-sg7
-S'NA'
-p161
-ssVMolasses
-p162
-(dp163
-g3
-V1.036
-p164
-sg5
-g12
-sg7
-V80°
-p165
-ssVWheat Malt 
-p166
-(dp167
-g3
-V1.038
-p168
-sg5
-g12
-sg7
-V2°
-p169
-ssVTorrified Wheat
-p170
-(dp171
-g3
-VPuffed wheat created by high heat. Use in pale ales, bitters and milds.
-p172
-sg5
-V1.036
-p173
-sg7
-V1-1.5°
-p174
-ssVCrystal Malt 30°
-p175
-(dp176
-g3
-VSweet, mild caramel flavor and a golden color. Use in light lagers and light ales.
-p177
-sg5
-V1.033-35
-p178
-sg7
-V30°
-p179
-ssVCrystal Malt 120°
-p180
-(dp181
-g3
-VPronounced caramel flavor and a red color. For stouts, porters and black beers.
-p182
-sg5
-V1.033-35
-p183
-sg7
-V120°
-p184
-ssS'Malt'
-p185
-(dp186
-g3
-S'G'
-p187
-sg5
-g30
-sg7
-S'L'
-p188
-ssVCarafa II
-p189
-(dp190
-g3
-V1.038
-p191
-sg5
-V375-450° 
-p192
-sg7
-g12
-ssVBlack Patent Malt
-p193
-(dp194
-g3
-V1.026
-p195
-sg5
-g12
-sg7
+F1.026
+sg6
 V500-600°
-p196
+p155
 ssVRoasted Barley
-p197
-(dp198
+p156
+(dp157
 g3
 VDry, roasted flavor, amber color.  For stouts, porters and Scottish ales.
-p199
+p158
 sg5
-V1.025
-p200
-sg7
+F1.025
+sg6
 V500°
-p201
+p159
 ssVCandi Sugar (amber)
-p202
-(dp203
+p160
+(dp161
 g3
-g12
+g31
 sg5
-V1.036
-p204
-sg7
+F1.036
+sg6
 V75°
-p205
+p162
 ssVToasted Pale Malt
-p206
-(dp207
+p163
+(dp164
 g3
 VImparts nutty flavor and aroma.  Use in IPAs and Scottish ales. 
-p208
+p165
 sg5
-V1.038
-p209
-sg7
+F1.038
+sg6
 V25°
-p210
+p166
 ssVDemerara Sugar
+p167
+(dp168
+g3
+VImparts mellow, sweet flavor. Use in English ales.
+p169
+sg5
+F1.041
+sg6
+V1°
+p170
+ssVCrystal Malt 
+p171
+(dp172
+g3
+V1.033-35
+p173
+sg5
+F1.033
+sg6
+g31
+ssVVictory Malt
+p174
+(dp175
+g3
+V1.034
+p176
+sg5
+F1.034
+sg6
+g31
+ssVCrystal Malt 90°
+p177
+(dp178
+g3
+VPronounced caramel flavor and a red color. For stouts, porters and black beers.
+p179
+sg5
+F1.033
+sg6
+V90°
+p180
+ssVPeat Smoked Malt
+p181
+(dp182
+g3
+g31
+sg5
+F1.034
+sg6
+V2.8°
+p183
+ssVDextrose (glucose)
+p184
+(dp185
+g3
+V1.037
+p186
+sg5
+F1.037
+sg6
+g31
+ssVDextrin Malt (carapils)
+p187
+(dp188
+g3
+VBalances body and flavor without adding color, aids in head retention. For any beer.
+p189
+sg5
+F1.033
+sg6
+V1.5°
+p190
+ssVPale Malt (Brewers 6-row)
+p191
+(dp192
+g3
+VModerate malt flavor.  Basic malt for all beer styles.
+p193
+sg5
+F1.035
+sg6
+V1.8°
+p194
+ssVCrystal Malt 10°
+p195
+(dp196
+g3
+VSweet, mild caramel flavor and a golden color. Use in light lagers and light ales.
+p197
+sg5
+F1.033
+sg6
+V10°
+p198
+ssVLight Munich Malt
+p199
+(dp200
+g3
+V1.034
+p201
+sg5
+F1.034
+sg6
+V5-6°
+p202
+ssVBrown Sugar
+p203
+(dp204
+g3
+VImparts rich, sweet flavor. Use in Scottish ales, old ales and holiday beers.
+p205
+sg5
+F1.046
+sg6
+V40°
+p206
+ssVSpecial Roast
+p207
+(dp208
+g3
+VProvides a deep golden to brown color for ales. Use in all darker ales.
+p209
+sg5
+F1.035
+sg6
+V50°
+p210
+ssVScotmalt Golden Promise
 p211
 (dp212
 g3
-VImparts mellow, sweet flavor. Use in English ales.
+g31
+sg5
+F1.038
+sg6
+V2.4°
 p213
-sg5
-V1.041-42
+ssVRoasted Barley 
 p214
-sg7
-V1°
-p215
-ssVCrystal Malt 
+(dp215
+g3
+VSweet, grainy, coffee flavor and a red to deep brown color. For porters and stouts.
 p216
-(dp217
-g3
-V1.033-35
+sg5
+F1.025
+sg6
+V300°
+p217
+ssVCorn Sugar
 p218
-sg5
-V60°
-p219
-sg7
-g12
-ssVVictory Malt
+(dp219
+g3
+VUse in priming beer or in extract recipes where flaked maize would be used in a mash.
 p220
-(dp221
-g3
-V1.034
-p222
 sg5
-V25°
-p223
-sg7
-g12
-ssVCrystal Malt 90°
-p224
-(dp225
-g3
-VPronounced caramel flavor and a red color. For stouts, porters and black beers.
-p226
-sg5
-V1.033-35
-p227
-sg7
-V90°
-p228
-ssS'Sugars'
-p229
-(dp230
-g3
-g30
-sg5
-g30
-sg7
-g30
-ssVDextrose (glucose)
-p231
-(dp232
-g3
-V1.037
-p233
-sg5
+F1.037
+sg6
 V1°
-p234
-sg7
-g12
-ssVDextrin Malt (carapils)
-p235
-(dp236
+p221
+ssVFlaked Oats
+p222
+(dp223
 g3
-VBalances body and flavor without adding color, aids in head retention. For any beer.
-p237
+VAdds body and creamy head. For stouts and oat ales.
+p224
 sg5
-V1.033
-p238
-sg7
-V1.5°
-p239
-ssVPale Malt (Brewers 6-row)
-p240
-(dp241
-g3
-VModerate malt flavor.  Basic malt for all beer styles.
-p242
-sg5
-V1.035
-p243
-sg7
-V1.8°
-p244
-ssVCrystal Malt 10°
-p245
-(dp246
+F1.033
+sg6
+V1°
+p225
+ssVCrystal Malt 20°
+p226
+(dp227
 g3
 VSweet, mild caramel flavor and a golden color. Use in light lagers and light ales.
-p247
+p228
 sg5
-V1.033-35
+F1.033
+sg6
+V20°
+p229
+ssVFlaked Rye
+p230
+(dp231
+g3
+VImparts a dry, crisp character. Use in rye beers.
+p232
+sg5
+F1.036
+sg6
+V2°
+p233
+ssVCrystal Malt 55-60°
+p234
+(dp235
+g3
+VSweet caramel flavor, adds mouthfeel and head retention. For pale or amber ales. 
+p236
+sg5
+F1.033
+sg6
+V55-60°
+p237
+ssVCarafa III 
+p238
+(dp239
+g3
+V 
+p240
+sg5
+F1.038
+sg6
+V490-560°
+p241
+ssVSyrup Malt Extract
+p242
+(dp243
+g3
+VExtra Light (3.5°), Light (3.5 -5°), Amber (10°), Dark (30°), Wheat (2°).
+p244
+sg5
+F1.033
+sg6
+VVaries
+p245
+ssVRye Malt 
+p246
+(dp247
+g3
+VDry character. Can use as a base malt. For seasonal beers, roggenbier and ales. 
 p248
-sg7
-V10°
+sg5
+F1.029
+sg6
+V2.8-4.3°
 p249
-ssVLight Munich Malt
+ssVMaple Syrup
 p250
 (dp251
 g3
-V1.034
+VImparts a dry, woodsy flavor if used in the boil. If beer is bottled with it, it gives it a smooth sweet, maple taste. Use in maple ales, pale ales, brown ales and porters.
 p252
 sg5
-g12
-sg7
-V5-6°
+F1.03
+sg6
+V35°
 p253
-ssVBrown Sugar
+ssVChocolate Wheat Malt 
 p254
 (dp255
 g3
-VImparts rich, sweet flavor. Use in Scottish ales, old ales and holiday beers.
+g31
+sg5
+F1.038
+sg6
+V375-450°
 p256
-sg5
-V1.046
+ssVWheat Malt Light
 p257
-sg7
-V40°
-p258
-ssVSpecial Roast
+(dp258
+g3
+VTypical top fermented aroma, produces superb wheat beers.
 p259
-(dp260
-g3
-VProvides a deep golden to brown color for ales. Use in all darker ales.
+sg5
+F1.039
+sg6
+V1.5-2°
+p260
+ssS'Candi Sugar (dark)'
 p261
-sg5
-V1.035
-p262
-sg7
-V50°
+(dp262
+g3
+S'1.036'
 p263
-ssS'Honey'
+sg5
+F1.036
+sg6
+S'275&edg;'
 p264
-(dp265
+ssVCaraMunich Malt II 
+p265
+(dp266
 g3
-g30
-sg5
-S'1.032'
-p266
-sg7
-S'Varies'
+VCaraMunich Malt III is dark crystal.
 p267
-ssVScotmalt Golden Promise
+sg5
+F1.033
+sg6
+V42-50°
 p268
-(dp269
+ssVVienna Malt
+p269
+(dp270
 g3
-g12
-sg5
-V1.038
-p270
-sg7
-V2.4°
+VIncreases malty flavor, provides balance. Use in Vienna, Märzen and Oktoberfest.
 p271
-ssVRoasted Barley 
-p272
-(dp273
-g3
-VSweet, grainy, coffee flavor and a red to deep brown color. For porters and stouts.
-p274
 sg5
-V1.025
+F1.035
+sg6
+V3.5-4°
+p272
+ssS'Sucrose (white table sugar)'
+p273
+(dp274
+g3
+S'Increases alcohol. Use in Australian lagers and English bitters.'
 p275
-sg7
-V300°
+sg5
+F1.046
+sg6
+S'NA'
 p276
-ssVCorn Sugar
+ssVAromatic Malt
 p277
 (dp278
 g3
-VUse in priming beer or in extract recipes where flaked maize would be used in a mash.
+VImparts a big malt aroma.  Use in brown ales, Belgian dubbels and tripels.
 p279
 sg5
-V1.037
+F1.036
+sg6
+V20-26°
 p280
-sg7
-V1°
+ssVMaris Otter Pale Malt 
 p281
-ssVFlaked Oats
-p282
-(dp283
+(dp282
 g3
-VAdds body and creamy head. For stouts and oat ales.
-p284
+V1.038
+p283
 sg5
-V1.033
-p285
-sg7
-V1°
+F1.038
+sg6
+g31
+ssVPale Ale Malt 
+p284
+(dp285
+g3
+g31
+sg5
+F1.038
+sg6
+V2.7-3.8°
 p286
-ssVCrystal Malt 20°
+ssVGrits
 p287
 (dp288
 g3
-VSweet, mild caramel flavor and a golden color. Use in light lagers and light ales.
-p289
+g31
 sg5
-V1.033-35
+F1.037
+sg6
+V1-1.5°
+p289
+ssS'British Grains'
 p290
-sg7
-V20°
-p291
-ssVFlaked Rye
+(dp291
+g3
+g115
+sg5
+F0.0
+sg6
+g115
+ssVBlack Barley
 p292
 (dp293
 g3
-VImparts a dry, crisp character. Use in rye beers.
+VImparts dryness. Unmalted; use in porters and dry stouts.
 p294
 sg5
-V1.036
+F1.023
+sg6
+V525°
 p295
-sg7
-V2°
+ssVDark Munich Malt
 p296
-ssVCrystal Malt 55-60°
-p297
-(dp298
+(dp297
 g3
-VSweet caramel flavor, adds mouthfeel and head retention. For pale or amber ales. 
+g31
+sg5
+F1.034
+sg6
+V8-10°
+p298
+ssVChocolate Rye Malt
 p299
-sg5
-V1.033-35
-p300
-sg7
-V55-60°
+(dp300
+g3
+VEnhances aroma of dark ales and improves color. For dunkel rye wheat and ale.
 p301
-ssVCarafa III 
+sg5
+F1.03
+sg6
+V190-300° 
 p302
-(dp303
+ssVFlaked Barley
+p303
+(dp304
 g3
-V 
-p304
-sg5
-g12
-sg7
-V490-560°
+VHelps head retention, imparts creamy smoothness. For porters and stouts.
 p305
-ssVSyrup Malt Extract
+sg5
+F1.032
+sg6
+V1.5°
 p306
-(dp307
+ssVMaple Sap
+p307
+(dp308
 g3
-VExtra Light (3.5°), Light (3.5 -5°), Amber (10°), Dark (30°), Wheat (2°).
-p308
-sg5
-V1.033-1.037
+V1.009
 p309
-sg7
-VVaries
+sg5
+F1.009
+sg6
+g31
+ssS'Invert Sugar '
 p310
-ssVRye Malt 
-p311
-(dp312
+(dp311
 g3
-VDry character. Can use as a base malt. For seasonal beers, roggenbier and ales. 
+S'Increases alcohol.  Use in some Belgian or English ales. Use as an adjunct for priming. Made from sucrose. No dextrins. Use 1 cup for priming. '
+p312
+sg5
+F1.046
+sg6
+S'NA'
 p313
-sg5
-V1.029
+ssVLyle's Golden Syrup 
 p314
-sg7
-V2.8-4.3°
-p315
-ssVMaple Syrup
+(dp315
+g3
+VIncreases alcohol without flavor. Liquid Invert Sugar. Use in English and Belgian (Chimay) ales.
 p316
-(dp317
-g3
-VImparts a dry, woodsy flavor if used in the boil. If beer is bottled with it, it gives it a smooth sweet, maple taste. Use in maple ales, pale ales, brown ales and porters.
+sg5
+F1.036
+sg6
+V0°
+p317
+ssVFlaked Maize
 p318
-sg5
-V1.030
-p319
-sg7
-V35°
+(dp319
+g3
+VLightens body and color. For light American pilsners and ales.
 p320
-ssVChocolate Wheat Malt 
+sg5
+F1.037
+sg6
+V1°
 p321
-(dp322
+ssVCrystal Malt 30°
+p322
+(dp323
 g3
-g12
-sg5
-V1.038
-p323
-sg7
-V375-450°
+VSweet, mild caramel flavor and a golden color. Use in light lagers and light ales.
 p324
-ssVWheat Malt Light
-p325
-(dp326
-g3
-VTypical top fermented aroma, produces superb wheat beers.
-p327
 sg5
-V1.039
+F1.033
+sg6
+V30°
+p325
+ssVAcidulated (Sauer) Malt
+p326
+(dp327
+g3
+VHigh lactic acid. For lambics, sour mash beers, Irish stout, pilsners and wheats. 
 p328
-sg7
-V1.5-2°
+sg5
+F1.033
+sg6
+V1.7-2.8°
 p329
-ssS'German Grains'
+ssVPilsen Malt
 p330
 (dp331
 g3
-g30
-sg5
-g30
-sg7
-g30
-ssS'Candi Sugar (dark)'
+VLight color, malty flavor. For pilsners, dubbels, tripels, whites and specialty ales.
 p332
-(dp333
-g3
-S'1.036'
+sg5
+F1.037
+sg6
+V1.5°
+p333
+ssVCaraMunich Malt III 
 p334
-sg5
-g30
-sg7
-S'275&edg;'
-p335
-ssVCaraMunich Malt II 
-p336
-(dp337
+(dp335
 g3
-VCaraMunich Malt III is dark crystal.
-p338
-sg5
 V1.033-35
+p336
+sg5
+F1.033
+sg6
+g31
+ssVBlack Patent Malt 
+p337
+(dp338
+g3
+VProvides color and sharp flavor in stouts and porters.
 p339
-sg7
-V42-50°
+sg5
+F1.026
+sg6
+V500°
 p340
-ssVPeat Smoked Malt
+ssVChocolate Malt
 p341
 (dp342
 g3
-g12
-sg5
 V1.034
 p343
-sg7
-V2.8°
+sg5
+F1.034
+sg6
+g31
+ssVLager Malt
 p344
-ssVVienna Malt
-p345
-(dp346
+(dp345
 g3
-VIncreases malty flavor, provides balance. Use in Vienna, Märzen and Oktoberfest.
+g31
+sg5
+F1.038
+sg6
+V1.6°
+p346
+ssVSpecial B Malt
 p347
-sg5
-V1.035
-p348
-sg7
-V3.5-4°
-p349
-ssS'Sucrose (white table sugar)'
-p350
-(dp351
+(dp348
 g3
-S'Increases alcohol. Use in Australian lagers and English bitters.'
-p352
+VExtreme caramel aroma and flavor. For dark Abbey beers and other dark beers.
+p349
 sg5
-S'1.046'
+F1.03
+sg6
+V130-220°
+p350
+ssVCrystal Malt 40°
+p351
+(dp352
+g3
+VSweet, mild caramel flavor and a golden color. Use in light lagers and light ales.
 p353
-sg7
-S'NA'
+sg5
+F1.033
+sg6
+V40°
 p354
-ssVAromatic Malt
+ssVWheat Malt Dark 
 p355
 (dp356
 g3
-VImparts a big malt aroma.  Use in brown ales, Belgian dubbels and tripels.
+V1.039
 p357
 sg5
-V1.036
-p358
-sg7
-V20-26°
-p359
-ssVMaris Otter Pale Malt 
-p360
-(dp361
-g3
-V1.038
-p362
-sg5
-V3° 
-p363
-sg7
-g12
-ssVPale Ale Malt 
-p364
-(dp365
-g3
-g12
-sg5
-V1.038
-p366
-sg7
-V2.7-3.8°
-p367
-ssVGrits
-p368
-(dp369
-g3
-g12
-sg5
-V1.037
-p370
-sg7
-V1-1.5°
-p371
-ssS'British Grains'
-p372
-(dp373
-g3
-g30
-sg5
-g30
-sg7
-g30
-ssVBlack Barley
-p374
-(dp375
-g3
-VImparts dryness. Unmalted; use in porters and dry stouts.
-p376
-sg5
-V1.023-27
-p377
-sg7
-V525°
-p378
-ssVDark Munich Malt
-p379
-(dp380
-g3
-g12
-sg5
-V1.034
-p381
-sg7
-V8-10°
-p382
-ssVChocolate Rye Malt
-p383
-(dp384
-g3
-VEnhances aroma of dark ales and improves color. For dunkel rye wheat and ale.
-p385
-sg5
-V1.030
-p386
-sg7
-V190-300° 
-p387
-ssVFlaked Barley
-p388
-(dp389
-g3
-VHelps head retention, imparts creamy smoothness. For porters and stouts.
-p390
-sg5
-V1.032
-p391
-sg7
-V1.5°
-p392
-ssVMaple Sap
-p393
-(dp394
-g3
-V1.009
-p395
-sg5
-V3°
-p396
-sg7
-g12
-ssS'Invert Sugar '
-p397
-(dp398
-g3
-S'Increases alcohol.  Use in some Belgian or English ales. Use as an adjunct for priming. Made from sucrose. No dextrins. Use 1 cup for priming. '
-p399
-sg5
-S'1.046'
-p400
-sg7
-S'NA'
-p401
-ssVOther Malts, Grains and Flaked Grains and Additions
-p402
-(dp403
-g3
-V 
-p404
-sg5
-V 
-p405
-sg7
-g12
-ssVLyle's Golden Syrup 
-p406
-(dp407
-g3
-VIncreases alcohol without flavor. Liquid Invert Sugar. Use in English and Belgian (Chimay) ales.
-p408
-sg5
-V1.036
-p409
-sg7
-V0°
-p410
-ssVFlaked Maize
-p411
-(dp412
-g3
-VLightens body and color. For light American pilsners and ales.
-p413
-sg5
-V1.037
-p414
-sg7
-V1°
-p415
-ssVCara-Pils Dextrin
-p416
-(dp417
-g3
-VAdds body; aids head retention.  For porters, stouts and heavier bodied beers.
-p418
-sg5
-V1.033
-p419
-sg7
-V10-14° 
-p420
-ssVAcidulated (Sauer) Malt
-p421
-(dp422
-g3
-VHigh lactic acid. For lambics, sour mash beers, Irish stout, pilsners and wheats. 
-p423
-sg5
-V1.033
-p424
-sg7
-V1.7-2.8°
-p425
-ssVPilsen Malt
-p426
-(dp427
-g3
-VLight color, malty flavor. For pilsners, dubbels, tripels, whites and specialty ales.
-p428
-sg5
-V1.037
-p429
-sg7
-V1.5°
-p430
-ssVCaraMunich Malt III 
-p431
-(dp432
-g3
-V1.033-35
-p433
-sg5
-V53-60°
-p434
-sg7
-g12
-ssVBlack Patent Malt 
-p435
-(dp436
-g3
-VProvides color and sharp flavor in stouts and porters.
-p437
-sg5
-V1.026
-p438
-sg7
-V500°
-p439
-ssVChocolate Malt
-p440
-(dp441
-g3
-V1.034
-p442
-sg5
-V395-475°
-p443
-sg7
-g12
-ssVLager Malt
-p444
-(dp445
-g3
-g12
-sg5
-V1.038
-p446
-sg7
-V1.6°
-p447
-ssVSpecial B Malt
-p448
-(dp449
-g3
-VExtreme caramel aroma and flavor. For dark Abbey beers and other dark beers.
-p450
-sg5
-V1.030
-p451
-sg7
-V130-220°
-p452
-ssVCrystal Malt 40°
-p453
-(dp454
-g3
-VSweet, mild caramel flavor and a golden color. Use in light lagers and light ales.
-p455
-sg5
-V1.033-35
-p456
-sg7
-V40°
-p457
-ssVWheat Malt Dark 
-p458
-(dp459
-g3
-V1.039
-p460
-sg5
-V6-8°
-p461
-sg7
-g12
+F1.039
+sg6
+g31
 ss.

@@ -141,6 +141,14 @@ class Grain(object):
                     return "Grain not added."
             self.select_grain(output_list)
 
+
+    def edit_grains(self):
+        hashed_grains = self.read_grainfile()
+        for key in hashed_grains:
+            print "%s, gravity: %s" % (key, hashed_grains[key]['gravity'])
+            hashed_grains[key]['gravity'] = float(raw_input("enter gravity > "))
+        self.write_grainfile(hashed_grains)
+
     def grain(self):
         arguments = [raw_input("what grain is this? > ")]
         self.select_grain(arguments)
