@@ -85,7 +85,7 @@ class Yeast(object):
                                      'producer': yeast_producer,
                                      'attenuation': yeast_attenuation,
                                      'ferment_temp': yeast_ferment_temp,
-                                     'yeast_flocculation': yeast_flocculation,
+                                     'flocculation': yeast_flocculation,
                                      'alcohol_yield': yeast_alcohol_yield})
         self.write_yeastfile(hashed_yeasts)
 
@@ -190,8 +190,8 @@ class Yeast(object):
 
     def flocculation(self):
         hashed_yeasts = self.read_yeastfile()
-        self.flocculation = hashed_yeasts[self.yeast]['yeast_flocculation']
-        return hashed_yeasts[self.yeast]['yeast_flocculation']
+        self.flocculation = hashed_yeasts[self.yeast]['flocculation']
+        return hashed_yeasts[self.yeast]['flocculation']
 
 
     def ferment_temp(self):
