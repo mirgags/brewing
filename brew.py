@@ -4,6 +4,7 @@ from yeast import *
 import pickle
 from time import *
 from recipe import *
+import thread
 
 
 class Brew(object):
@@ -25,12 +26,13 @@ class Brew(object):
                 print "Enter a decimal number for batch volume"
 
 
-    def start_brew(self):
-        self.start_time = strftime("%H%M", localtime())
+    def start_timer(self):
+#        self.start_time = strftime("%H%M", localtime())
+        self.start_time = time()
 
 
     def comment(self):
-        self.comments.append([strftime("%H%M", localtime()), raw_input("Type commments > ")])
+        self.comments.append([int((time() - self.start_time) / 60), raw_input("Type commments > ")])
 
     def printer(self):
         for i in self.comments:
@@ -57,5 +59,25 @@ class Brew(object):
         return (lbs * 1.25 / 4)
 
 
+    def mash(self):
+        self.start_timer()
+        a = True
+        while a:
+            timer = int((time() - self.start_time) / 60)          
+            if timer % 20 == 0:
+                print "check temp"
+            print timer
+            if timer > 60:
+                a = False
+            print "got to sleep"
+            print a
+            sleep(5)
+        
+        print "Mash out"
 
-
+    def loop(self):
+        self.mash()
+#        thread.start_new_thread(self.mash, ())
+#        print "loop test"
+#        thread.start_new_thread(self.comment, ())
+#        print "comment running too"
