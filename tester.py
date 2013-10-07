@@ -3,7 +3,6 @@ import brew
 
 r = recipe.Recipe()
 b = brew.Brew(r)
-b.start_brew2()
-b.comment('test comment')
-b.printer()
+b.loop()
 print('test finished\n')
+
