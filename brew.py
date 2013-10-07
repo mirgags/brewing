@@ -32,6 +32,10 @@ class Brew(object):
     def comment(self):
         self.comments.append([strftime("%H%M", localtime()), raw_input("Type commments > ")])
 
+    def printer(self):
+        for i in self.comments:
+            print(i)
+
     def target_gravity(self):
         gravity = 0
         for g in self.recipe.grains:
