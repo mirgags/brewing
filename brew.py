@@ -3,6 +3,7 @@ from grain import *
 from yeast import *
 import pickle
 from time import *
+from recipe import *
 
 
 class Brew(object):
@@ -10,14 +11,26 @@ class Brew(object):
 
     def __init__(self, recipe):
         self.recipe = recipe
+        self.volume = 0.0
+        self.start_time = 0.0 
+        self.comments = []
+
+
+    def volume_calc(self):
         while True:
             try:
                 self.volume = float(raw_input("What will pre-boil volume be? > "))
                 break
             except ValueError:
                 print "Enter a decimal number for batch volume"
-        self.date = strftime("%m-%d-%Y", localtime())
 
+
+    def start_brew(self):
+        self.start_time = strftime("%H%M", localtime())
+
+
+    def comment(self):
+        self.comments.append([strftime("%H%M", localtime()), raw_input("Type commments > ")])
 
     def target_gravity(self):
         gravity = 0
