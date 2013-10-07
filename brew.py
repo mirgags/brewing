@@ -53,7 +53,5 @@ class Brew(object):
         return (lbs * 1.25 / 4)
 
 
-    def start_brew(self):
-        start_time = localtime()
 
 
