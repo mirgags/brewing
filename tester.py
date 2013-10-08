@@ -10,18 +10,26 @@ i = []
 r = recipe.Recipe()
 r.select_ingredient()
 filename = open('test_recipe.pkl', 'wb')
-for thing in vars(r):
-    print thing
-    if not thing.startswith('date'):
-        for ingredient in eval('r.%s' % thing):
-            i.append(['%s' % thing, vars(ingredient)])
+#for thing in vars(r):
+#    print thing
+#    if not thing.startswith('date'):
+#        for ingredient in eval('r.%s' % thing):
+#            i.append(['%s' % thing, vars(ingredient)])
 
 #for e in i:
 #    print e
-pickle.dump(i, filename)
-filename.close()
+#pickle.dump(i, filename)
+#filename.close()
+
+recipe = pickle.load(filename)
         
+for thing in vars(Recipe()):
+    print thing
+
+filename.close()
+
 b = brew.Brew(r)
+
 b.vourlaf()
 b.start_timer()
 b.loop()

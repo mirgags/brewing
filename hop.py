@@ -1,5 +1,6 @@
 import pickle
 import time
+from recipe import *
 
 
 class Hop(object):
@@ -139,7 +140,8 @@ class Hop(object):
                             ).upper() == "Y":
                     self.add_hop()
                 else:
-                    return "Hop not added."
+                    print "Hop not added."
+                    super(Hop, self)
             self.select_hop(output_list)
 
     def hop(self):

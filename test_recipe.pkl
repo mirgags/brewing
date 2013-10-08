@@ -5,11 +5,11 @@ p2
 a(dp3
 S'origin'
 p4
-S'England'
+S'Australia'
 p5
 sS'name'
 p6
-S'fugg'
+S'gal'
 p7
 sS'character'
 p8
@@ -17,11 +17,11 @@ S''
 p9
 sS'aau'
 p10
-S'4-5.5'
+S'14.9'
 p11
 sS'hop'
 p12
-S'Fuggles'
+S'Galaxy'
 p13
 sS'ounces'
 p14
@@ -34,18 +34,18 @@ S'hops'
 p17
 a(dp18
 g4
-S'New Zealand'
+S'England'
 p19
 sg6
-S'sa'
+S'f'
 p20
 sg8
 g9
 sg10
-S'12-14'
+S'4-5.5'
 p21
 sg12
-S'Nelson Sauvin'
+S'Fuggles'
 p22
 sg14
 F3.0
@@ -80,20 +80,20 @@ S'grains'
 p35
 a(dp36
 g26
-F2.0
+F4.0
 sg6
-S'cara'
+S'car'
 p37
 sg28
-V30-38° 
+V8-12°
 p38
 sg8
-VProvides body. For Oktoberfest, bock, porter, stout, red, amber and brown ales.
+VFor light colored beer for body; hefeweizen, pale ale, golden ale, Oktoberfest.
 p39
 sg31
 F1.033
 sg32
-VCaraMunich Malt I 
+VCaraHell Malt (light crystal) 
 p40
 saa(lp41
 S'yeast'
