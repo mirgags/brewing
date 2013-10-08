@@ -13,7 +13,7 @@ class Brew(object):
     def __init__(self, recipe):
         self.recipe = recipe
         self.volume = 0.0
-        self.start_time = 0.0 
+        self.start_time = None 
         self.comments = []
 
 

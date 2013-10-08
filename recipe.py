@@ -19,14 +19,17 @@ class Recipe(object):
         self.lbs = lbs
         return (lbs * 1.25 / 4)
 
-
+    #this is in the brew class now, correct?
     def start_brew(self):
         start_time = localtime()
 
 
-    def select_ingredient(self):
+    def select_ingredient(self, test_input=None):
         print "Add ingredients or type \"Done\" to finish."
-        answer = raw_input("Is this a hop, grain or yeast? > ").upper()
+        if test_input == None:
+            answer = raw_input("Is this a hop, grain or yeast? > ").upper()
+        else:
+            answer = test_input
         if not answer.startswith("D"):
             while not any(answer.startswith(let) for let in ["D", "H", "G", "Y"]):
                 print "That's not a beer ingredient, try again or \"Done\" > "
