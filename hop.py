@@ -16,6 +16,7 @@ class Hop(object):
                     self.character = self.character()
                     self.name = args[0]
                     print "Object: %s created." % args[0]
+                    
             else:
                 self.hop = ""
                 print "Too many arguments, no attributes set."
@@ -132,6 +133,7 @@ class Hop(object):
                     print input_list[0]
                     if raw_input("Is it this one? (y/n) > ").upper() == "Y":
                         self.hop = "%s" % input_list[0]
+                        # return the list maybe? for the tester?
                         return
                 elif input_list[0].upper() in key.upper():
                     output_list.append(key)
