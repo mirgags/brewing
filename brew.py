@@ -75,6 +75,19 @@ class Brew(object):
         
         print "Mash out"
 
+    def vourlaf(self):
+        while True:
+           try:
+               runoff = float(raw_input("How much runoff? > " ))
+               break
+           except ValueError:
+               print "Enter a decimal value. > "
+        grain_lbs = 0
+        for g in self.recipe.grains:
+            grain_lbs = grain_lbs + g.lbs
+        print grain_lbs
+        print "vourlaf water is: %s" % ((7 - runoff) + (grain_lbs * .13))
+
     def loop(self):
         self.mash()
 #        thread.start_new_thread(self.mash, ())
