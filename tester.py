@@ -6,9 +6,23 @@ import yeast
 import pickle
 
 import unittest
+import logging
 
-class my_test(unittest.TestCase):
+class brew_test(unittest.TestCase):
+    
+
     def test_function(self):
+        log = logging.getLogger(__name__)
+        logging.basicConfig(level=logging.DEBUG)
+        log.setLevel(logging.DEBUG)
+        # log file handler
+        logfile_handler = logging.FileHandler('test.test_function.log')
+        logfile_handler.setLevel(logging.DEBUG)
+        # add handlers to the logger
+        log.addHandler(logfile_handler)
+        log.debug('brew_test.test_function')
+
+
         #
         self.recipe = recipe.Recipe()
 
@@ -19,8 +33,8 @@ class my_test(unittest.TestCase):
 
         # But now I am going to try just appending to the lists
         # I forgot that the hops list is objects, not strings
-        # hmm...zzz
         #self.recipe.hops = ['Select', 'Galaxy']
+
 
 #        rob, this is an example of what comes out of the pkl file:
 #            ['hops', {'name': '', 'aau': '3.2', 'hop': 'Galaxy', ...}
@@ -31,7 +45,8 @@ class my_test(unittest.TestCase):
 
         brewing_session = brew.Brew(recipe)
         #brewing_session.loop()
-        print('test finished\n')
+        #print('test finished\n')
+        log.debug('brew test function finished')
 
 if __name__ == '__main__':
     unittest.main()
