@@ -21,7 +21,12 @@ class my_test(unittest.TestCase):
         # I forgot that the hops list is objects, not strings
         # hmm...zzz
         #self.recipe.hops = ['Select', 'Galaxy']
-        self.recipe.hops = [hop.Hop()]
+
+#        rob, this is an example of what comes out of the pkl file:
+#            ['hops', {'name': '', 'aau': '3.2', 'hop': 'Galaxy', ...}
+#        so we could pass stuff to select_ingredient like:
+#            answer = item_from_pickeled_recipe[0]
+#        self.recipe.hops = [hop.Hop()]
 
 
         brewing_session = brew.Brew(recipe)
