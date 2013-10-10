@@ -73,3 +73,28 @@ class Recipe(object):
             for el in self.yeast:
                 print el.yeast
             self.select_ingredient()
+
+
+    def save_recipe(self):
+        i = []
+        r = self
+        filename = open('test_recipe.pkl', 'wb')
+        for thing in vars(r):
+            print thing
+            if not thing.startswith('date'):
+                for ingredient in eval("r.%s" % thing):
+                    i.append(['%s' % thing, vars(ingredient)])
+        pickle.dump(i, filename)
+        filename.close
+
+#when uncommented, this script will add a recipe to storage
+###########
+#if __name__ == "__main__":
+#    test_recipe = Recipe()
+#    q = True
+#    while q:
+#        test_recipe.select_ingredient()
+#        if raw_input('More? y/n > ').upper() == "N":
+#            q = False
+#    test_recipe.save_recipe()
+
