@@ -87,7 +87,7 @@ class Recipe(object):
         pickle.dump(i, filename)
         filename.close
 
-#when uncommented, this script will add a recipe to storage
+#when uncommented, this script will add a recipe loop to storage
 ###########
 #if __name__ == "__main__":
 #    test_recipe = Recipe()
