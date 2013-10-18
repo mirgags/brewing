@@ -76,25 +76,88 @@ class Recipe(object):
 
 
     def save_recipe(self):
+#   example of output: {'name': string, ['hops'/'grains'/'yeast', objectvars]}
         i = []
+        recipe_list = {}
         r = self
+        r_name = 'second testname'
+        filename = open('test_recipe.pkl', 'rb')
+        recipe_list = pickle.load(filename)
+        filename.close()
         filename = open('test_recipe.pkl', 'wb')
+
         for thing in vars(r):
             print thing
             if not thing.startswith('date'):
                 for ingredient in eval("r.%s" % thing):
                     i.append(['%s' % thing, vars(ingredient)])
-        pickle.dump(i, filename)
-        filename.close
+        recipe_list[r_name] =  i
+        pickle.dump(recipe_list, filename)
+        filename.close()
+
+
+    def get_recipe(self, recipe_name):
+        self.recipe_name = recipe_name
+        filename = open('test_recipe.pkl', 'rb')
+        recipe_list = pickle.load(filename)
+        filename.close()
+        for key in recipe_list:
+            print key
+            print recipe_list[key]
+            
+            if key.startswith(recipe_name):
+                for thing in recipe_list[key]:
+                    print thing[0]
+                    print thing[1]
+                    if thing[0].startswith('hop'):
+                        self.hops.append(Hop())
+                        self.hops[len(self.hops) - 1].name = thing[1]['name']
+                        self.hops[len(self.hops) - 1].aau = thing[1]['aau']
+                        self.hops[len(self.hops) - 1].hop = thing[1]['hop']
+                        self.hops[len(self.hops) - 1].origin = thing[1]['origin']
+                        self.hops[len(self.hops) - 1].character = thing[1]['character']
+                        self.hops[len(self.hops) - 1].add_time = thing[1]['add_time']
+                        self.hops[len(self.hops) - 1].ounces = thing[1]['ounces']
+#                        for ingredient in vars(thing[1]):
+#                            eval("self.hops[len(self.hops)].%s = recipe_list[key][1][%s]" % (ingredient, ingredient))
+                    if thing[0].startswith('grain'):
+                        self.grains.append(Grain())
+                        self.grains[len(self.grains) - 1].name = thing[1]['name']
+                        self.grains[len(self.grains) - 1].lovibond = thing[1]['lovibond']
+                        self.grains[len(self.grains) - 1].grain = thing[1]['grain']
+                        self.grains[len(self.grains) - 1].gravity = thing[1]['gravity']
+                        self.grains[len(self.grains) - 1].character = thing[1]['character']
+                        self.grains[len(self.grains) - 1].lbs = thing[1]['lbs']
+                       
+#                        for ingredient in vars(thing[1]):
+#                            eval("self.grains[len(self.grains)].%s = recipe_list[key][1][%s]" % (ingredient, ingredient))
+                    if thing[0].startswith('yeast'):
+                        self.yeast.append(Yeast())
+                        self.yeast[len(self.yeast) - 1].name = thing[1]['name']
+                        self.yeast[len(self.yeast) - 1].producer = thing[1]['producer']
+                        self.yeast[len(self.yeast) - 1].yeast = thing[1]['yeast']
+                        self.yeast[len(self.yeast) - 1].id_code = thing[1]['id_code']
+                        self.yeast[len(self.yeast) - 1].attenuation = thing[1]['attenuation']
+                        self.yeast[len(self.yeast) - 1].flocculation = thing[1]['flocculation']
+                        self.yeast[len(self.yeast) - 1].ferment_temp = thing[1]['ferment_temp']
+                        self.yeast[len(self.yeast) - 1].alcohol_yield = thing[1]['alcohol_yield']
+                        self.yeast[len(self.yeast) - 1].pitch_temp = thing[1]['pitch_temp']
+ 
+#                        for ingredient in vars(thing[1]):
+#                            eval("self.yeast[len(self.yeast)].%s = recipe_list[key][1][%s]" % (ingredient, ingredient))
+
+
+
+
 
 #when uncommented, this script will add a recipe loop to storage
-###########
-#if __name__ == "__main__":
-#    test_recipe = Recipe()
-#    q = True
-#    while q:
-#        test_recipe.select_ingredient()
-#        if raw_input('More? y/n > ').upper() == "N":
-#            q = False
-#    test_recipe.save_recipe()
+##########
+if __name__ == "__main__":
+    test_recipe = Recipe()
+    q = True
+    while q:
+        test_recipe.select_ingredient()
+        if raw_input('More? y/n > ').upper() == "N":
+            q = False
+    test_recipe.save_recipe()
 
