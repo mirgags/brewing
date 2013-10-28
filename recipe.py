@@ -3,6 +3,8 @@ from grain import *
 from yeast import *
 import pickle
 from time import *
+import os
+import sys
 
 
 class Recipe(object):
@@ -75,22 +77,41 @@ class Recipe(object):
             self.select_ingredient()
 
 
-    def save_recipe(self):
+    def save_recipe(self, *args):
 #   example of output: {'name': string, ['hops'/'grains'/'yeast', objectvars]}
         i = []
         recipe_list = {}
         r = self
-        r_name = 'second testname'
+        if args:
+            if args.count() == 1:
+                r_name = args[0]
+            else:
+                print("Too many recipe arguments.  Exiting.")
+                sys.exit()
+        else:
+            r_name = raw_input("Name this recipe > ")
         filename = open('test_recipe.pkl', 'rb')
-        recipe_list = pickle.load(filename)
-        filename.close()
-        filename = open('test_recipe.pkl', 'wb')
+        while True:
+            try:
+                recipe_list = pickle.load(filename)
+                filename.close()
+                break
+            except EOFError:
+                break
 
-        for thing in vars(r):
-            print thing
+        if r_name in recipe_list:
+            answer = raw_input("%s already exists, do you want to overwrite? (y/n)" % r_name)
+            if answer.startswith("N"):
+                print("Exiting, not updated")
+                sys.exit()
+
+        for thing in vars(r): 
+            #print thing
             if not thing.startswith('date'):
                 for ingredient in eval("r.%s" % thing):
                     i.append(['%s' % thing, vars(ingredient)])
+
+        filename = open('test_recipe.pkl', 'wb')
         recipe_list[r_name] =  i
         pickle.dump(recipe_list, filename)
         filename.close()
